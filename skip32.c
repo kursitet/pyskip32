@@ -16,6 +16,8 @@
     Keith Bussell: Added python wrapping code 7/11/2008
  */
 
+#define PY_SSIZE_T_CLEAN
+
 #include <Python.h>
 
 typedef unsigned char   BYTE; /* 8 bits */
